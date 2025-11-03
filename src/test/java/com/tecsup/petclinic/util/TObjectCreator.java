@@ -76,9 +76,7 @@ public class TObjectCreator {
 		return new PetDTO(1,"Leo",1,1, "2000-09-07");
 	}
 
-	public static PetDTO newPetTO() {
-		return new PetDTO(-1,"Beethoven",1,1, "2020-05-20");
-	}
+	public static PetDTO newPetTO() {return new PetDTO(-1,"Beethoven",1,1, "2020-05-20");}
 
 	public static PetDTO newPetTOForDelete() {
 		return new PetDTO(10000,"Beethoven3",1,1, "2020-05-20");
