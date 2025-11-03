@@ -14,9 +14,9 @@ public class VetMapper {
     public Vet mapToEntity(VetDTO dto) {
         if (dto == null) return null;
         return new Vet(
-            //    dto.getId(),
-            //    dto.getFirstName(),
-            //    dto.getLastName()
+                dto.getId(),
+                dto.getFirstName(),
+                dto.getLastName()
         );
     }
 

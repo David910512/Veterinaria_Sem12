@@ -35,4 +35,6 @@ public class Vet {
 	)
 	private Set<Specialty> specialties;
 
+	public Vet(Integer id, String firstName, String lastName) {
+	}
 }
