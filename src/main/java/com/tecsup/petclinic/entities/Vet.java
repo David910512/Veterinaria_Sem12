@@ -11,6 +11,7 @@ import java.util.Set;
  * @author jgomezm
  *
  */
+
 @NoArgsConstructor
 @Entity(name = "vets")
 @Data
@@ -35,3 +36,5 @@ public class Vet {
 	private Set<Specialty> specialties;
 
 }
+
+
